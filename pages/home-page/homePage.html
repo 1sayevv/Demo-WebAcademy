@@ -18,21 +18,33 @@
       <div class="navigationBar">
         <div class="firmLogoContainer">
           <img
-            src="/Demo-WebAcademy/pages/home-page/logo/wa-removebg-preview.png"
+            src="/pages/home-page/logo/wa-removebg-preview.png"
             alt="Firma Logo"
             class="firmLogo"
           />
         </div>
-        <nav class="menu">
-          <ul class="menuList">
+        <div class="hamburgerMenuContainer">
+          <input type="checkbox" id="check_menu" />
+          <label for="check_menu" class="hamburgerMenuCheck"></label>
+          <div class="burger-line first"></div>
+          <div class="burger-line second"></div>
+          <div class="burger-line third"></div>
+          <div class="burger-line fourth"></div>
+          <nav class="hamburgerMenu">
+            <a href="#" class="menuLinksHamburger">Home</a>
+            <a href="#" class="menuLinksHamburger">Courses</a>
+            <a href="#" class="menuLinksHamburger">About us</a>
+            <a href="#" class="menuLinksHamburger">Contact us</a>
+          </nav>
+        </div>
+        <div class="navigationMenu">
+          <nav class="menu">
             <a href="#" class="menuLinks">Home</a>
             <a href="#" class="menuLinks">Courses</a>
             <a href="#" class="menuLinks">About us</a>
             <a href="#" class="menuLinks">Contact us</a>
-          </ul>
-        </nav>
-
-        
+          </nav>
+        </div>
       </div>
 
       <div class="header">
